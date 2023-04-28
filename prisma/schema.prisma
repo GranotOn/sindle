@@ -21,12 +21,4 @@ model Movie {
 
   lastPlayed DateTime
 
-  game Game?
-}
-
-model Game {
-  id Int @id @default(autoincrement())
-  date DateTime @default(now())
-  movie Movie @relation(fields: [movieId], references: [id])
-  movieId Int @unique
 }

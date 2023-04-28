@@ -14,6 +14,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.5.0",
+		"@types/string-similarity": "^4.0.0",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
 		"autoprefixer": "^10.4.14",
@@ -31,9 +32,15 @@
 		"vite": "^4.2.0"
 	},
 	"type": "module",
+	"prisma": {
+		"seed": "ts-node prisma/seed.ts"
+	},
 	"dependencies": {
+		"@prisma/client": "^4.13.0",
 		"daisyui": "^2.51.5",
 		"prettier-plugin-prisma": "^4.12.0",
-		"prettier-plugin-tailwindcss": "^0.2.7"
+		"prettier-plugin-tailwindcss": "^0.2.7",
+		"string-similarity": "^4.0.4",
+		"zod": "^3.21.4"
 	}
 }

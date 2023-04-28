@@ -1,8 +1,9 @@
 <nav class="navbar bg-base-100 border-b flex justify-between">
+	<div />
 	<div>
 		<a
 			href="/"
-			class="text-xl uppercase text-primary hover:text-primary-focus active:text-primary-content transition-colors"
+			class="text-2xl font-semibold justify-self-center uppercase text-primary hover:text-primary-focus active:text-primary-content transition-colors"
 			>sindle</a
 		>
 	</div>
