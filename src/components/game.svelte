@@ -1,5 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import Input from './Input.svelte';
+	import GuessRow from './GuessRow.svelte';
+	import ColorMap from './ColorMap.svelte';
 
 	type GameStore = {
 		history: {
@@ -17,4 +20,9 @@
 	// const gameStore: GameStore = JSON.parse(window.localStorage.getItem('store') || '{}');
 </script>
 
-hey
+<ColorMap />
+
+<section class="flex flex-col items-center">
+	<Input />
+	<GuessRow />
+</section>

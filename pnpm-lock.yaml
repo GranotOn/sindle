@@ -8,6 +8,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.45.0
   '@typescript-eslint/parser': ^5.45.0
   autoprefixer: ^10.4.14
+  clsx: ^1.2.1
   daisyui: ^2.51.5
   eslint: ^8.28.0
   eslint-config-prettier: ^8.5.0
@@ -28,6 +29,7 @@ specifiers:
 
 dependencies:
   '@prisma/client': 4.13.0
+  clsx: 1.2.1
   daisyui: 2.51.5_j7yt3jd32cwenjqavrrga47yr4
   prettier-plugin-prisma: 4.12.0_prettier@2.8.7
   prettier-plugin-tailwindcss: 0.2.7_ur4yhozmpa5c7u2hssnpuxkrki
@@ -733,6 +735,11 @@ packages:
       readdirp: 3.6.0
     optionalDependencies:
       fsevents: 2.3.2
+
+  /clsx/1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
+    engines: {node: '>=6'}
+    dev: false
 
   /color-convert/2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
