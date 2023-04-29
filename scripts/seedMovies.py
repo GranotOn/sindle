@@ -22,6 +22,8 @@ while start < 223_500:
         year = year.strip('()-')
 
         actors = item.findAll('p')
+        if not actors[2] or not len(actors[2].text.split('Stars:')) > 1 or not actors[2].text.split('Stars:')[1]:
+            continue
         actors = actors[2].text.split('Stars:')[1].strip().split(',')
         actors = [actor.lstrip() for actor in actors] 
         
