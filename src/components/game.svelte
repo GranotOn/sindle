@@ -20,7 +20,9 @@
 	// const gameStore: GameStore = JSON.parse(window.localStorage.getItem('store') || '{}');
 </script>
 
-<ColorMap />
+<div class="absolute left-4">
+	<ColorMap />
+</div>
 
 <section class="flex flex-col items-center">
 	<Input />
